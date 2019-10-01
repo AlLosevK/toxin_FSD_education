@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'PT Serif';
+  src: font-url('PT_Serif/Regular/PTSerifRegular.eot');
+  src: font-url('PT_Serif/Regular/PTSerifRegular.eot?#iefix') format('embedded-opentype'),
+       font-url('PT_Serif/Regular/PTSerifRegular.woff') format('woff'),
+       font-url('PT_Serif/Regular/PTSerifRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  src: font-url('PT_Serif/Italic/PTSerifItalic.eot');
+  src: font-url('PT_Serif/Italic/PTSerifItalic.eot?#iefix') format('embedded-opentype'),
+       font-url('PT_Serif/Italic/PTSerifItalic.woff') format('woff'),
+       font-url('PT_Serif/Italic/PTSerifItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  src: font-url('PT_Serif/Bold/PTSerifBold.eot');
+  src: font-url('PT_Serif/Bold/PTSerifBold.eot?#iefix') format('embedded-opentype'),
+       font-url('PT_Serif/Bold/PTSerifBold.woff') format('woff'),
+       font-url('PT_Serif/Bold/PTSerifBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  src: font-url('PT_Serif/BoldItalic/PTSerifBoldItalic.eot');
+  src: font-url('PT_Serif/BoldItalic/PTSerifBoldItalic.eot?#iefix') format('embedded-opentype'),
+       font-url('PT_Serif/BoldItalic/PTSerifBoldItalic.woff') format('woff'),
+       font-url('PT_Serif/BoldItalic/PTSerifBoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}

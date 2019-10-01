@@ -1,0 +1,11 @@
+// ------------------------------------------------------------
+// This file contains all project-wide functions.
+// ------------------------------------------------------------
+
+@function image($image) {
+  @return url('#{$images-path}/#{$image}');
+}
+
+@function font($font) {
+  @return url('#{$font}');
+}

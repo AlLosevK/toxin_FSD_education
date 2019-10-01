@@ -1,0 +1,5 @@
+ProjectTitle: Title HERE
+
+PageList:
+- file: homepage.html
+  ready: 5

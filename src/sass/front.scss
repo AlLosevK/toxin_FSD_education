@@ -1,0 +1,71 @@
+// ------------------------------------------------------------
+// Suomenpakopelit.fi stylesheets taken from Kvesti.lv
+// Crafted with love by Bogdans Laidins and Viktors Golubevs.
+// ------------------------------------------------------------
+
+// Configuration, mixins and functions
+@import 'abstract/variables';
+@import 'abstract/functions';
+@import 'abstract/mixins';
+
+// Vendor stylesheets
+@import 'vendor/fontawesome';
+@import 'vendor/normalize';
+@import 'vendor/lightbox';
+@import 'vendor/pt-serif';
+@import 'vendor/lato';
+@import 'vendor/tips';
+
+// Base configuration and styles
+@import 'base/base';
+
+// Components
+@import 'components/body';
+@import 'components/cookies-consent-message';
+@import 'components/header';
+@import 'components/main';
+@import 'components/footer';
+@import 'components/categories';
+@import 'components/room-item';
+@import 'components/rooms';
+@import 'components/room';
+@import 'components/groups';
+@import 'components/list';
+@import 'components/button';
+@import 'components/form';
+@import 'components/contacts';
+@import 'components/gift';
+@import 'components/gift-cards';
+@import 'components/marker';
+@import 'components/reservation';
+@import 'components/reservation-confirmation';
+@import 'components/order';
+@import 'components/modal';
+@import 'components/dropdown';
+@import 'components/payment';
+@import 'components/static';
+@import 'components/offer';
+
+
+.parallax-mirror {
+  background-color: #08080a;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: .4;
+    z-index: 1;
+    content: '';
+  }
+
+  .parallax-slider {
+    filter: blur(5px);
+    margin-left: -1% !important;
+    width: 102% !important;
+    background-color: #141415;
+  }
+}
